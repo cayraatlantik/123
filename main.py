@@ -1,6 +1,6 @@
 import telebot
 
-TOKEN = '7153742355:AAF_BCTGywwK3DMYkUditKA1actDYxRhHX0'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
@@ -27,4 +27,5 @@ print('OK')
 bot.polling(
     none_stop=True,
     interval=1
+
 )
