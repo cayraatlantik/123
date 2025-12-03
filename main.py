@@ -1,7 +1,7 @@
 import telebot
 from for_db import *
 
-TOKEN = '7153742355:AAF_BCTGywwK3DMYkUditKA1actDYxRhHX0'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 # #button_3 = telebot.types.KeyboardButton('Подсчет общего расхода по категориям')
@@ -66,4 +66,5 @@ def insert(data):
         """)
     
     connection.close()
+
 
